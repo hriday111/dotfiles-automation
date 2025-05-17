@@ -12,6 +12,8 @@ This project is create for the sole purpose of understanding automations
 
 
 ## Usage
+
+```bash
 git clone https://github.com/hriday111/dotfiles-automation.git
 
 cd dotfiles-automation
