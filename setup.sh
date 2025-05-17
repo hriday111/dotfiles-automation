@@ -9,12 +9,16 @@ mkdir -p "$BACKUP_DIR"
 FILES=(
     ".bashrc"
     ".vimrc"
+    ".gitconfig"
+    ".tmux.conf"
 )
 
 for file in "${FILES[@]}"; do
     TARGET="$HOME/$file"
     SOURCE="$DOTFILES_DIR/$file"
-    if [-e "$TARGET"]; then
+    if [-e "$TARGET"]; then ## write a comment explaining this line
+
+    
         echo "Backing up existing $file to $BACKUP_DIR"
         mv "$TARGET" "$BACKUP_DIR/"
     fi

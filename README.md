@@ -10,6 +10,10 @@ This project is create for the sole purpose of understanding automations
     - Create symlinks to your custom dotfiles
     - Easily portable across systems
 
+## TODO
+
+    - Use hybrid bash-python approach
+    
 
 ## Usage
 
