@@ -13,6 +13,9 @@ This project is create for the sole purpose of understanding automations
 
 ## Usage
 git clone https://github.com/hriday111/dotfiles-automation.git
+
 cd dotfiles-automation
+
 chmod +x setup.sh
+
 ./setup.sh
