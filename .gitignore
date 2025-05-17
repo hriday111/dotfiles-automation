@@ -1,0 +1,15 @@
+# Backup folders
+dotfiles_backup_*/
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.bak
+*~
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
